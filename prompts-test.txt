@@ -1,0 +1,54 @@
+# TEST 01: IMG2IMG Alternative Test
+4k, (masterpiece), highest quality, (2d), (anime), portrait of  melprsn woman  wearing ragged clothes, (intricate detailed)  dramatic, (style by satoshi kon)
+Negative prompt: (worst quality, low quality:1.4), blurry, bad anatomy, bad proportions, ((3d)), 
+Steps: 25, Sampler: Euler, CFG scale: 9, Seed: 224771903, Size: 640x640, Model hash: b0c46ec815, Model: melprsn-v1, Denoising strength: 0.6, Mask blur: 4, Decode prompt: photo of a melprsn person, Decode negative prompt: , Decode CFG scale: 1, Decode steps: 25, Randomness: 0, Sigma Adjustment: True
+
+# TEST 02: IMG2IMG Only (Fixed seed):
+an (anime) portrait  of a melprsn woman  wearing a ragged red plain blouse, in the (style by makoto shinkai), plain grey background, (2d)
+Negative prompt: (worst quality, low quality:1.4), blurry, bad anatomy, bad proportions, ((3d)), 
+Steps: 25, Sampler: Euler, CFG scale: 8, Seed: 224771903, Size: 640x640, Model hash: b0c46ec815, Model: melprsn-v1, Denoising strength: 0.6, Mask blur: 4
+
+# TEST 03: IMG2IMG Alternative Test Prompt 2 (more detailed)
+an (anime) portrait of a melprsn woman wearing a ragged red plain blouse, in the (style by makoto shinkai), plain grey background, (2d),
+Negative prompt: (worst quality, low quality:1.4), blurry, bad anatomy, bad proportions, ((3d)),
+Steps: 25, Sampler: Euler, CFG scale: 8, Seed: 224771903, Size: 640x640, Model hash: b0c46ec815, Model: melprsn-v1, Denoising strength: 0.6, Mask blur: 4, Decode prompt: photo of a melprsn person, Decode negative prompt: , Decode CFG scale: 1, Decode steps: 25, Randomness: 0, Sigma Adjustment: True
+
+# TEST 4: IMG2IMG Alternative Test Prompt 2 w/ RANDOMNESS (0.55)
+an (anime) photo of a melprsn woman wearing a ragged red plain blouse, in the (style by makoto shinkai), greenscreen background
+Negative prompt: worst quality, (low quality:1.4), blurry, bad anatomy, bad proportions, ((3d))
+Steps: 25, Sampler: Euler, CFG scale: 7.5, Seed: 3661586696, Size: 768x768, Model hash: b0c46ec815, Model: melprsn-v1, Denoising strength: 0.6, Mask blur: 4, Decode prompt: a photo of melprsn person, Decode negative prompt: , Decode CFG scale: 1, Decode steps: 25, Randomness: 0.55, Sigma Adjustment: True
+
+# TEST 5: IMG2IMG Alternative Test Prompt 3 
+(urushisato:1.0), anime cel animation of melprsn woman young , best quality, masterpiece, green screen background <lora:urushisato_v15:0.8>
+Negative prompt: two head, (ugly), duplicate, morbid, out of frame, (poorly drawn hands), (poorly drawn face), nsfw, mutation, deformed, blurry, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, long neck, ((horns))
+Steps: 25, Sampler: Euler, CFG scale: 7.5, Seed: 734789466, Size: 512x512, Model hash: b0c46ec815, Model: melprsn-v1, Denoising strength: 0.65, Mask blur: 4, Decode prompt: photo of a melprsn woman in front of a gree screen, Decode negative prompt: , Decode CFG scale: 1, Decode steps: 25, Randomness: 0, Sigma Adjustment: True
+
+# TEST 6: CONTROLNET SD-2.1
+an cel animation of  an asian woman wearing a ragged red plain blouse, in the (style by makoto shinkai) 
+Negative prompt: red eyes, worst quality, (low quality:1.4), blurry, bad anatomy, bad proportions, ((3d))
+Steps: 30, Sampler: Euler a, CFG scale: 8.5, Seed: 1457640695, Size: 1080x1080, Model hash: ad2a33c361, Model: v2-1_768-ema-pruned, Denoising strength: 0.65, Mask blur: 4, ControlNet Enabled: True, ControlNet Module: depth, ControlNet Model: depth-sd21-safe [2722c7d7], ControlNet Weight: 0.35, ControlNet Guidance Start: 0, ControlNet Guidance End: 1
+
+# TEST 7: Alttest - Modelo:Fast Mel + Paprika Misturados
+a anime poster of melprsn woman with red paintings in her eyes in aesthetic of paprikastl style
+Negative prompt: blue eyes, werid eyes ((duplicate))), ((morbid)), ((mutilated)), [out of frame], extra fingers, mutated hands, ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), (((deformed))), ((ugly)), blurry, ((bad anatomy)), (((bad proportions))), ((extra limbs)), cloned face, (((disfigured))), out of frame, ugly, extra limbs, (bad anatomy), gross proportions, (malformed limbs), ((missing arms)), ((missing legs)), (((extra arms))), (((extra legs))), mutated hands, (fused fingers), (too many fingers), (((long neck)))
+Steps: 25, Sampler: Euler, CFG scale: 7, Seed: 2389752015, Size: 512x512, Model hash: 658d2137d3, Model: mel-papirka-fast, Denoising strength: 0.7, Mask blur: 4, Decode prompt: a photo of melprsn woman, Decode negative prompt: , Decode CFG scale: 1, Decode steps: 25, Randomness: 0, Sigma Adjustment: True
+
+
+# TEST 8: ControlNET + Atltest - Mel-Paprika-v1
+an cel animation of a (melprsn:1.2) woman standing with red painting in her eyes, in the (style by pprkstltkn)
+Negative prompt: (3d), (cgi), two head, (ugly), duplicate, morbid, out of frame, (poorly drawn hands), (poorly drawn face), nsfw, mutation, deformed, blurry, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, long neck, ((horns))
+Steps: 25, Sampler: Euler, CFG scale: 7, Seed: 3390913259, Size: 896x1072, Model hash: 2f23e688b6, Model: mel-paprika-v1, Denoising strength: 0.7, Mask blur: 4, Decode prompt: photo a melprsn woman, Decode negative prompt: , Decode CFG scale: 1, Decode steps: 25, Randomness: 0, Sigma Adjustment: True, ControlNet-0 Enabled: True, ControlNet-0 Module: canny, ControlNet-0 Model: control_canny-fp16 [e3fe7712], ControlNet-0 Weight: 0.3, ControlNet-0 Guidance Start: 0, ControlNet-0 Guidance End: 1, ControlNet-1 Enabled: True, ControlNet-1 Module: depth, ControlNet-1 Model: control_depth-fp16 [400750f6], ControlNet-1 Weight: 1, ControlNet-1 Guidance Start: 0, ControlNet-1 Guidance End: 1
+
+PART 2
+an cel animation of a (melprsn:1.2) woman standing with red painting in her eyes, in the (style by pprkstltkn:1.2)
+Negative prompt: (3d), (cgi), two head, (ugly), duplicate, morbid, out of frame, (poorly drawn hands), (poorly drawn face), nsfw, mutation, deformed, blurry, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, long neck, ((horns))
+Steps: 25, Sampler: Euler, CFG scale: 8, Seed: 3390913259, Size: 512x512, Model hash: 2f23e688b6, Model: mel-paprika-v1, Denoising strength: 0.75, Mask blur: 4, Decode prompt: photo a melprsn woman, Decode negative prompt: , Decode CFG scale: 1, Decode steps: 25, Randomness: 0, Sigma Adjustment: True, ControlNet-0 Enabled: True, ControlNet-0 Module: canny, ControlNet-0 Model: control_canny-fp16 [e3fe7712], ControlNet-0 Weight: 0.3, ControlNet-0 Guidance Start: 0, ControlNet-0 Guidance End: 1, ControlNet-1 Enabled: True, ControlNet-1 Module: depth, ControlNet-1 Model: control_depth-fp16 [400750f6], ControlNet-1 Weight: 0.35, ControlNet-1 Guidance Start: 0, ControlNet-1 Guidance End: 1
+
+
+# TEST 9: ControlNET + Mel-Paprika-v1
+Part1:
+
+
+an cel animation of a (melprsn:1.2) woman standing with red painting in her eyes, in the (style by pprkstltkn:1.2)
+Negative prompt: two head, (ugly), duplicate, morbid, out of frame, (poorly drawn hands), (poorly drawn face), nsfw, mutation, deformed, blurry, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, long neck, ((horns))
+Steps: 25, Sampler: Euler a, CFG scale: 7, Seed: 3234631609, Size: 896x1072, Model hash: 2f23e688b6, Model: mel-paprika-v1, Denoising strength: 0.65, Mask blur: 4, ControlNet-0 Enabled: True, ControlNet-0 Module: canny, ControlNet-0 Model: control_canny-fp16 [e3fe7712], ControlNet-0 Weight: 0.4, ControlNet-0 Guidance Start: 0, ControlNet-0 Guidance End: 1, ControlNet-1 Enabled: True, ControlNet-1 Module: normal_map, ControlNet-1 Model: control_normal-fp16 [63f96f7c], ControlNet-1 Weight: 0.95, ControlNet-1 Guidance Start: 0, ControlNet-1 Guidance End: 1
