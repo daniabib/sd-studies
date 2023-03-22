@@ -390,6 +390,8 @@ Steps: 30, Sampler: Euler, CFG scale: 7, Seed: 3390913259, Size: 896x1072, Model
 ## Then: MEL
 *Modelo base:* AnythingV3.0
 
+*Token as:* lucyliu
+
 *Dataset*: melprsn-v3
 *Dataset size*: 
 * 20 fotos MEL:
@@ -433,8 +435,6 @@ an cel animation of a (melprsn:1.2) person holding a katana blade and wearing a 
 Negative prompt: two head, (ugly), duplicate, morbid, out of frame, (poorly drawn hands), (poorly drawn face), nsfw, mutation, deformed, blurry, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, long neck, ((horns))
 Steps: 30, Sampler: DPM++ 2M Karras, CFG scale: 8, Seed: 3344750449, Size: 512x632, Model hash: 6f7617ad87, Model: paprika-mel-v1, Denoising strength: 0.75, Mask blur: 4, ControlNet-0 Enabled: True, ControlNet-0 Module: canny, ControlNet-0 Model: control_canny-fp16 [e3fe7712], ControlNet-0 Weight: 0.35, ControlNet-0 Guidance Start: 0, ControlNet-0 Guidance End: 1, ControlNet-1 Enabled: True, ControlNet-1 Module: normal_map, ControlNet-1 Model: control_normal-fp16 [63f96f7c], ControlNet-1 Weight: 0.5, ControlNet-1 Guidance Start: 0, ControlNet-1 Guidance End: 1
 
-# TODO
-Fazer o dreambooth do Anytinhgv1 com paprika style e depois aplicar dreambooth com rosto da Mel (ja com algumas fotos geradas com o estil do paprika ante  rior)
 
 IMAGE2IMAGE BATCHS:
 
