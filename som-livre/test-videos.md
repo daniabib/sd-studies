@@ -9,6 +9,7 @@ an cel animation of lucyliu in the style by (pprkstltkn:1.3),with short black ha
 Negative prompt: two head, (ugly), duplicate, morbid, out of frame, (poorly drawn hands), (poorly drawn face), nsfw, mutation, deformed, blurry, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, long neck, ((horns)), cg, 3d
 Steps: 20, Sampler: Euler, CFG scale: 8, Seed: 1062019380, Size: 640x1064, Model hash: 13fa89b815, Model: paprika-mellucy-v2, Denoising strength: 0.65, Mask blur: 4, ControlNet-0 Enabled: True, ControlNet-0 Module: depth, ControlNet-0 Model: control_depth-fp16 [400750f6], ControlNet-0 Weight: 1, ControlNet-0 Guidance Start: 0, ControlNet-0 Guidance End: 1
 - Aumentar o número de steps para o próximo
+- Depth
 
 ### 02-control-random
 lucyliu wearing a (((panda jacket))) in the aesthetic of pprkstltkn style, serious face
@@ -17,3 +18,14 @@ Steps: 30, Sampler: Euler, CFG scale: 8, Seed: 2964443191, Size: 640x960, Model 
 - Aumentei step para 30.
 - Testando prompt mais direcionado. 
 - Adicionei canny a controlnet.
+
+# 03-control-fixseed
+an cel animation of (lucyliu:1.2) in the aesthetic of (pprkstltkn:1.4) style, serious face
+Negative prompt: cataracts, weird eyes,two head, (ugly), duplicate, morbid, out of frame, (poorly drawn hands), (poorly drawn face), nsfw, mutation, deformed, blurry, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, long neck, ((horns)),
+Steps: 30, Sampler: Euler, CFG scale: 8, Seed: 3947546186, Size: 704x1064, Model hash: 13fa89b815, Model: paprika-mellucy-v2, Denoising strength: 0.75, Mask blur: 4, ControlNet-0 Enabled: True, ControlNet-0 Module: canny, ControlNet-0 Model: control_canny-fp16 [e3fe7712], ControlNet-0 Weight: 0.3, ControlNet-0 Guidance Start: 0, ControlNet-0 Guidance End: 1, ControlNet-1 Enabled: True, ControlNet-1 Module: normal_map, ControlNet-1 Model: control_normal-fp16 [63f96f7c], ControlNet-1 Weight: 0.5, ControlNet-1 Guidance Start: 0, ControlNet-1 Guidance End: 1
+- Canny:0.3 + Normal Map:0.5
+- Estilo mais animação pastelado
+
+
+### TODO
+Testar com outros samplers 
