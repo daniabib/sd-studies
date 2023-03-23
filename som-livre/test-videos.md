@@ -29,3 +29,9 @@ Steps: 30, Sampler: Euler, CFG scale: 8, Seed: 3947546186, Size: 704x1064, Model
 
 ### TODO
 Testar com outros samplers 
+
+# DREAMSAM
+# 01-img2img-fixedseed
+(samdoesart:1.1) (dreamlikeart:1) full body portrait of a beautiful (lucyliu:1.3) person dancing with a red shirt and a black sports pants, short hair, masterpiece, intense shadows, ambient light, illustration, (thick outlines:1.2), cartoon, highres, drawn by Inoue Takehiko, (Yoji Shinkawa:0.9), Jakub Rozalski, (kuvshinov:1)
+Negative prompt: bag, backpack, weapon, guns, (ugly:1.5), (duplicate:1.3), (morbid:1.2), (mutilated:1.2), (mutation), [out of frame], (extra fingers:1.2), (more than two arms), (more than two legs), (missing arms), (missing legs), (poorly drawn hands:1.3), (poorly drawn face:1.3), (deformed:1.2), blurry, (bad anatomy), (bad proportions), (disfigured:1.3), extra limbs, (malformed limbs), mutated hands, (fused fingers), (makeup)
+Steps: 30, Sampler: Euler, CFG scale: 9, Seed: 154910064, Size: 704x1072, Model hash: 13fa89b815, Model: paprika-mellucy-v2, Denoising strength: 0.5, Mask blur: 4

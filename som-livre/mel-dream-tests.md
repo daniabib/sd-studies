@@ -441,3 +441,33 @@ IMAGE2IMAGE BATCHS:
 1. an cel animation of a (melprsn:1.5) person in the style by (pprkstltkn:1.3), and with red painting in her eyes and wearing a red reagged blouse and short black hair, adult woman
 Negative prompt: two head, (ugly), duplicate, morbid, out of frame, (poorly drawn hands), (poorly drawn face), nsfw, mutation, deformed, blurry, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, long neck, ((horns)), cg, 3d
 Steps: 35, Sampler: Euler, CFG scale: 8, Seed: 1087266718, Size: 512x512, Model hash: e2398cf2ec, Model: paprika-mel-v1
+
+
+
+# DREAMSAM TESTS
+## Test 1
+*Processo*: [Fast-Dreambooth](https://github.com/TheLastBen/fast-stable-diffusion)
+
+*Modelo base:* dreamlikesamkuvshino
+
+*Dataset*: melprsn-v3
+*Dataset size*: 
+* 20 fotos MEL:
+    * 16 corpo
+    * 14 médio
+    * 16 rosto
+* Fundo cinza e removido (misturados)
+
+*Regularization*: None
+
+*CKPT out name (session name)*: melprsn-prestyle-v1 
+
+*UNet_Training_Steps:* 1200
+
+*UNet_Learning_Rate:* 2e-6
+
+*Text_Encoder_Training_Steps:* 350
+
+Text_Encoder_Concept_Training_Steps= 0
+
+*Offset_Noise:* False
