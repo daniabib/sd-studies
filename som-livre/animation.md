@@ -178,3 +178,11 @@ Steps: 30, Sampler: Euler a, CFG scale: 9, Seed: 776855012, Size: 1288x720, Mode
 
 Seed: 808446581
 
+
+
+# INPATING
+## TRECHO00-03
+(samdoesart:1.1) (dreamlikeart:1) close-up portrait of a beautiful (lucyliu:1.3) person (((perfect black eyes , gothic, realistic eyes))), sharp focus, insane details, intricate details, hyperdetailwith a red shirt and a black sports pants, short hair, masterpiece, intense shadows, ambient light, illustration, (thick outlines:1.2), cartoon, highres, drawn by Inoue Takehiko, (Yoji Shinkawa:0.9), Jakub Rozalski, (kuvshinov:1)
+Negative prompt: , (ugly:1.5), (duplicate:1.3), (morbid:1.2), (mutilated:1.2), (mutation), [out of frame], (extra fingers:1.2), (more than two arms), (more than two legs), (missing arms), (missing legs), (poorly drawn hands:1.3), (poorly drawn face:1.3), (deformed:1.2), blurry, (bad anatomy), (bad proportions), (disfigured:1.3), extra limbs, (malformed limbs), mutated hands, (fused fingers)
+Steps: 150, Sampler: DPM++ 2M, CFG scale: 8, Seed: 3863506299, Size: 704x736, Model hash: cdb8a167dd, Model: dreamsam-mellucy-v2-1200, Denoising strength: 0.6, Mask blur: 4
+
