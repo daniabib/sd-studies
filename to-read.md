@@ -15,6 +15,10 @@
 ## Video Synthesis
 1. - [ ] [Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2304.08818)
 
+## Introductory Papers
+1. - [ ] [Understanding Diffusion Models: A Unified Perspective](https://arxiv.org/abs/2208.11970)
+1. - [ ] [How to Train Your Energy-Based Models](https://arxiv.org/abs/2101.03288)
+2. 
 ## Theoretical Roots
 1. - [ ] [Deep Unsupervised Learning using Nonequilibrium Thermodynamics](https://arxiv.org/abs/1503.03585)
 1. - [ ] [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239)
